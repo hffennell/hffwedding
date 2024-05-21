@@ -71,9 +71,9 @@ export default function FaqFooter() {
         <div className="w-full px-4 md:px-10 lg:px-20">
           <div className="text-black font-script -mt-24 md:-mt-12 xl:-mt-20 w-full">
             <FadeInOut className="footer flex justify-between lg:text-xl pb-2">
-              <div>alexa + grayson</div>
+              <div>david & hannah</div>
               <div>
-                september 22, 2025
+                may 31, 2025
               </div>
             </FadeInOut>
           </div>

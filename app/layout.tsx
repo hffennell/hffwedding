@@ -21,12 +21,12 @@ const nanum = Nanum_Myeongjo({
 export const metadata: Metadata = {
   title: {
     template: '%s | Toschidoli Wedding',
-    default: 'Alexa + Grayson 2025',
+    default: 'David & Hannah 2025',
   },
-  description: 'Welcome to Alexa Spatidol and Grayson Toschi\'s Wedding Website! View photos, directions, registry details and more!',
+  description: 'Welcome to David Freedland and Hannah Fennell\'s Wedding Website! View photos, directions, registry details and more!',
   openGraph: {
-    title: 'Alexa + Grayson 2025',
-    description: 'Welcome to Alexa Spatidol and Grayson Toschi\'s Wedding Website! View photos, directions, registry details and more!',
+    title: 'David & Hannah 2025',
+    description: 'Welcome to David Freedland and Hannah Fennell\'s Wedding Website! View photos, directions, registry details and more!',
     type: 'website',
   },
 };

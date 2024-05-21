@@ -2,7 +2,7 @@
 import { forwardRef, useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 import { useIntersectionObserver } from './hooks/useIntersectionObserver';
-import RsvpImage from 'public/images/ag-film-rsvp.jpg';
+import RsvpImage from 'Pictures/000004410013.jpg';
 import useMediaQuery from './hooks/useMediaQuery';
 import Script from 'next/script';
 
@@ -42,7 +42,7 @@ const Rsvp = forwardRef<HTMLDivElement>((props, ref) => {
         </div>
         <div className={`slide w-1/2 bg-olive h-[96svh] ${isInitialState && '-translate-y-[100%]'} ${!isScrolled ? '!absolute top-[30%]' : ''} ${!isVisible && !isInitialState ? 'slide-down' : 'slide-back-up' }`}>
           <div className="flex flex-col h-full items-start justify-center text-white max-w-xl px-4 md:px-12 lg:px-24">
-            <p className="text-lg md:text-2xl lg:text-3xl mt-12">Our wedding will take place on June 25th, 2025 at the Riverview Estate in Harwich, MA.</p>
+            <p className="text-lg md:text-2xl lg:text-3xl mt-12">Our wedding will take place on May 31st, 2025 in Wilmington, North Carolina.</p>
             <button className="relative border border-white px-4 md:px-7 py-2.5 font-script text-lg md:text-xl mt-6 md:mt-12 underline-animation">rsvp here</button>
           </div>
         </div>

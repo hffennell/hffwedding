@@ -2,7 +2,7 @@ import { forwardRef } from "react";
 import { FadeInOut } from "./visual/fadeInOut";
 
 const Info = forwardRef<HTMLDivElement>((props, ref) => {
-  const string = "Stay tuned for welcome dinner details!";
+  const string = "Stay tuned for more information!";
 
   return (
     <>
@@ -12,14 +12,14 @@ const Info = forwardRef<HTMLDivElement>((props, ref) => {
             <h2 className="font-script text-lg sm:text-xl md:text-2xl mb-6 xl:my-6">the big day details</h2>
           </FadeInOut>
           <FadeInOut>
-            <p className="">join us September 22, 2025 to celebrate the marriage of Alexa and Grayson.</p>
-            <p className="">the ceremony will take place at 3pm with reception to follow.</p>
+            <p className="">join us May 31, 2025 to celebrate the marriage of Hannah and David.</p>
+            <p className="">the ceremony will take place at 5pm with reception to follow.</p>
           </FadeInOut>
           <FadeInOut>
             <p className="my-6 leading-loose">
-              <span className="font-medium underline underline-offset-2">time:</span> ceremony 3pm-4pm; reception 4pm-midnight!<br />
-              <span className="font-medium underline underline-offset-2">address:</span> 123 Sunny lane, Happyville, RI 12345<br />
-              <span className="font-medium underline underline-offset-2">dress code:</span> black tie optional<br />
+              <span className="font-medium underline underline-offset-2">time:</span> ceremony 5pm-6pm; reception 6pm-10pm!<br />
+              <span className="font-medium underline underline-offset-2">venue:</span> Brooklyn Arts Center (516 N 4th St, Wilmington NC, 28401)<br />
+              <span className="font-medium underline underline-offset-2">dress code:</span> cocktail<br />
             </p>
           </FadeInOut>
         </div>

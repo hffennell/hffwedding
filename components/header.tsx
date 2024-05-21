@@ -24,6 +24,10 @@ const navList = [
     href: "#travel"
   },
   {
+    name: "registry",
+    href: "#filler"
+  },
+  {
     name: "faqs",
     href: "#filler"
   },
