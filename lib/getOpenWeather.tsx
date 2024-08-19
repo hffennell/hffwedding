@@ -1,6 +1,6 @@
 export async function getOpenWeather() {
   const res = await fetch(
-    `https://api.openweathermap.org/data/2.5/weather?lat=${41.6716}&lon=${-70.0622}&units=imperial&appid=${process.env.NEXT_PUBLIC_OPEN_WEATHER_API}`, 
+    `https://api.openweathermap.org/data/2.5/weather?lat=${34.2104}&lon=${-77.944710}&units=imperial&appid=${process.env.NEXT_PUBLIC_OPEN_WEATHER_API}`, 
     { next: { revalidate: 10 } }
   );
  

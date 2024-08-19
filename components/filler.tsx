@@ -1,7 +1,7 @@
 'use client';
 import { forwardRef } from 'react';
 import Image from 'next/image';
-import BgImage from 'public/images/ag-lift.jpg';
+import BgImage from 'public/images/hannah-davd-nigel-jpg-34.jpg';
 
 const Filler = forwardRef<HTMLDivElement>((props, ref) => {
   return (
@@ -10,6 +10,7 @@ const Filler = forwardRef<HTMLDivElement>((props, ref) => {
         <div className="h-full overflow-hidden flex items-center justify-center">
 					<Image
 						src={BgImage}
+						
 						alt="Alexa and Grayson embracing"
 						width={100}
 						height={100}
@@ -18,6 +19,7 @@ const Filler = forwardRef<HTMLDivElement>((props, ref) => {
             placeholder="blur"
 					/>
 				</div>
+				
       </section>
     </>
   )

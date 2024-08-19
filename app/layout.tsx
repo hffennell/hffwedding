@@ -20,13 +20,13 @@ const nanum = Nanum_Myeongjo({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Toschidoli Wedding',
-    default: 'David & Hannah 2025',
+    template: '%s | Hannah & David\'s Wedding',
+    default: 'Hannah & David 2025',
   },
-  description: 'Welcome to David Freedland and Hannah Fennell\'s Wedding Website! View photos, directions, registry details and more!',
+  description: 'Welcome to Hannah Fennell and David Freedland\'s Wedding Website! View photos, directions, registry details and more!',
   openGraph: {
-    title: 'David & Hannah 2025',
-    description: 'Welcome to David Freedland and Hannah Fennell\'s Wedding Website! View photos, directions, registry details and more!',
+    title: 'Hannah & David 2025',
+    description: 'Welcome to Hannah Fennell and David Freedland\'s Wedding Website! View photos, directions, registry details and more!',
     type: 'website',
   },
 };
@@ -39,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${lexend.variable} ${nanum.variable}`}>
-        <ShowBreakpoints />
+        {/* <ShowBreakpoints /> */}
         {children}
         <Footer />
       </body>

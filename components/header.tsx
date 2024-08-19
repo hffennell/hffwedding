@@ -5,6 +5,8 @@ import { scrollToDiv } from './functional/scrollTo';
 import { isElementVisible } from './functional/isVisible';
 import { getOpenWeather } from '@/lib/getOpenWeather';
 
+
+
 // ** update ** list when adding a new section //
 const navList = [
   {
@@ -20,12 +22,8 @@ const navList = [
     href: "#info"
   },
   {
-    name: "travel",
+    name: "local recs",
     href: "#travel"
-  },
-  {
-    name: "registry",
-    href: "#filler"
   },
   {
     name: "faqs",
@@ -36,9 +34,19 @@ const navList = [
 export default function Header({ activeSection, textClasses }: { activeSection: string | null, textClasses: string } ) {
   const [section, setSection] = useState<string>('hero');
   const pathname = usePathname();
+  const [temp, setTemp] = useState<number>();
+  const [condition, setCondition] = useState<string>();
+  const [icon, setIcon] = useState<string>();
 
   const getWeatherData = async () => {
     const weather = await getOpenWeather();
+    const t = Math.ceil(weather.main.temp);
+    const c = weather.weather[0].main;
+    const i = weather.weather[0].icon;
+    setTemp(t);
+    setCondition(c);
+    setIcon(i);
+
   };
 
   const visualChangesOnScroll = () => {
@@ -75,6 +83,11 @@ export default function Header({ activeSection, textClasses }: { activeSection: 
    activeSection && setSection(activeSection);
   }, [activeSection]);
 
+  useEffect(() => {
+    getWeatherData();
+  },[]);
+
+
   return (
     <>
       <section className="fixed z-50 bottom-0 right-0 left-0 w-full flex justify-center p-6 md:py-12 md:px-20">
@@ -100,19 +113,19 @@ export default function Header({ activeSection, textClasses }: { activeSection: 
         </div>
         <div className={`fixed left-0.5 sm:left-2 md:left-6 xl:left-8 w-5 whitespace-nowrap font-sans text-sm lg:text-base -rotate-90 top-[60%] ${textClasses}`}>
           <span className="px-1.5 py-1 mx-1.5">
-            <span className="font-bubbleIcon text-2xl sm:text-3xl lg:text-4xl pr-1.5 inline-block translate-y-1">k</span>
-            Harwich, MA
+            <span className="font-bubbleIcon text-2xl sm:text-3xl lg:text-4xl pr-1.5 inline-block translate-y-1">m</span>
+            Wilmington, NC
           </span>
           <span className="px-3 py-1">
-            <span className="font-bubbleIcon text-xl sm:text-2xl lg:text-3xl pr-1.5 inline-block translate-y-0.5 sm:translate-y-1">0</span>
-            64&deg;F & Clear
+            <img className="inline" src={`images/icons8-${icon}.svg`}/>
+            {temp}&deg;F & {condition}
           </span>
         </div>
 
-        <div className={`border fixed left-[10%] -top-px ${textClasses}`}>
-          <div className="px-3.5 md:px-7 py-2.5 md:py-3.5 font-normal font-script text-center underline-animation lg:text-lg">
+        <div  className={`border fixed left-[10%] -top-px ${textClasses}`}>
+           <a target="_blank" href="https://withjoy.com/hannah-and-david-may-25/registry" className="px-3.5 md:px-7 py-2.5 md:py-3.5 font-normal font-script text-center underline-animation lg:text-lg">
             our registry
-          </div>
+            </a>
         </div>
       </section>
     </>

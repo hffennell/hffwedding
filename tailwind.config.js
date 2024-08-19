@@ -14,7 +14,7 @@ module.exports = {
       },
       fontFamily: {
         serif: 'Bodoni',
-        sans: ['var(--lexend)'],
+        sans: 'Gill Sans',
         bubble: 'Blazing Sun',
         bubbleFilled: 'Blazing Sun Filled',
         bubbleIcon: 'Blazing Sun Icons',
@@ -27,7 +27,10 @@ module.exports = {
         beige: "#AAAA93",
         pink: "#DECACB",
         green: "#F2E9CF",
-        blue: "#ACB4B8"
+        blue: "#ACB4B8",
+        brightcerise: "#F23333",
+        mint: "#CAEAD8",
+        oleander: "#F3CBC5"
       },
       animation: {
         'spin-slow': 'spin 7s linear infinite reverse',
