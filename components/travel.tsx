@@ -1,7 +1,7 @@
 'use client';
 import { forwardRef } from 'react';
 import Image from 'next/image';
-import Photo from 'Public/images/hannahanddavidinsf.jpg';
+import Photo from 'Pictures/hannahanddavidinsfcopy.jpg';
 
 const Travel = forwardRef<HTMLDivElement>((props, ref) => {
   return (

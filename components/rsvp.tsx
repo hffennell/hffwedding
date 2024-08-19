@@ -2,7 +2,7 @@
 import { forwardRef, useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 import { useIntersectionObserver } from './hooks/useIntersectionObserver';
-import RsvpImage from 'Public/images/Daviddancingnoglasses.jpg';
+import RsvpImage from 'Pictures/Daviddancingnoglassescopy.jpg';
 import useMediaQuery from './hooks/useMediaQuery';
 import Script from 'next/script';
 
