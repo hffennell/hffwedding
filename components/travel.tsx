@@ -16,7 +16,7 @@ const Travel = forwardRef<HTMLDivElement>((props, ref) => {
 						<span className="font-bubbleIcon text-3xl pr-2 block text-center"></span>
 						<span className="font-script">travel</span>
 							<br />
-							If you&apos;re flying, we recommend Wilmington airport! It&apos;s a smaller airport, but offers direct flights available to about a dozen cities, including NYC,  Atlanta, and Chicago! 
+							If you&apos;re flying, we recommend Wilmington airport! It&apos;s a smaller airport, but has direct flights available to about a dozen cities, including NYC,  Atlanta, and Chicago! 
 							Other airport options include Raleigh or Myrtle Beach (each about 2 hours away).
 						</p>
 						
