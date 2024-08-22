@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: '%s | Hannah & David\'s Wedding',
     default: 'Hannah & David 2025',
   },
-  description: 'Welcome to Hannah Fennell and David Freedland\'s Wedding Website! View photos, directions, registry details and more!',
+  description: 'Welcome to Hannah Fennell and David Freedland\'s Wedding Website! We will be getting married May 2025 in Wilmington, NC. View photos, directions, registry details and more!',
   openGraph: {
     title: 'Hannah & David 2025',
     description: 'Welcome to Hannah Fennell and David Freedland\'s Wedding Website! View photos, directions, registry details and more!',

@@ -3,6 +3,7 @@ import { forwardRef, useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 import { useIntersectionObserver } from './hooks/useIntersectionObserver';
 import RsvpImage from 'Pictures/Daviddancingnoglassescopy.jpg';
+import RsvpImage2 from 'Pictures/Daviddancingnoglassessmall.jpg';
 import useMediaQuery from './hooks/useMediaQuery';
 import Script from 'next/script';
 
@@ -52,8 +53,13 @@ const Rsvp = forwardRef<HTMLDivElement>((props, ref) => {
         <div ref={ref}  className={`slide w-1/2 bg-oleander h-[96svh] overflow-hidden flex items-center ${isInitialState && 'translate-y-[100%]'} ${!isScrolled ? '!absolute top-[30%]' : ''} ${!isVisible && !isInitialState ? 'slide-up' : 'slide-back-down' }`}>
           <Image
             src={RsvpImage}
-            alt="alexa and gray holding hands"
-            className="relative object-cover object-[center_70%] w-full h-full"
+            alt="David Dancing"
+            className="relative object-cover object-[center_70%] w-full h-full hidden xl:block"
+          />
+           <Image
+            src={RsvpImage2}
+            alt="David Dancing"
+            className="relative object-cover object-[center_70%] w-full h-full xl:hidden"
           />
         </div>
         <div className={`slide w-1/2 bg-oleander h-[96svh] ${isInitialState && '-translate-y-[100%]'} ${!isScrolled ? '!absolute top-[30%]' : ''} ${!isVisible && !isInitialState ? 'slide-down' : 'slide-back-up' }`}>

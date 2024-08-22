@@ -11,7 +11,7 @@ const Filler = forwardRef<HTMLDivElement>((props, ref) => {
 					<Image
 						src={BgImage}
 						
-						alt="Alexa and Grayson embracing"
+						alt="Hannah, David, and Nigel"
 						width={100}
 						height={100}
 						className="relative w-full h-full object-cover object-bottom"

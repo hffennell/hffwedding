@@ -1,7 +1,8 @@
 'use client';
 import { forwardRef } from 'react';
 import Image from 'next/image';
-import HeroImage from 'Pictures/000004400012.jpg';
+import HeroImage from 'Pictures/000004400012.jpg'
+import HeroImage2 from 'Pictures/whalewatchingvertical.jpeg';
 
 const Hero = forwardRef<HTMLDivElement>((props, ref) => {;
   return (
@@ -12,7 +13,17 @@ const Hero = forwardRef<HTMLDivElement>((props, ref) => {;
           alt="Hannah and David whale watching"
 					width={100}
 					height={100}
-					className="relative w-full h-[100svh] object-cover object-bottom lg:object-[center_80%]"
+					className="relative w-full h-[100svh] object-cover object-bottom lg:object-[center_80%] hidden xl:block"
+					sizes="(max-width: 1024px) 150vh, 100vw"
+					placeholder="blur"
+          priority
+        />
+		<Image
+          src={HeroImage2}
+          alt="Hannah and David whale watching"
+					width={100}
+					height={100}
+					className="relative w-full h-[100svh] object-cover object-bottom lg:object-[center_80%] xl:hidden"
 					sizes="(max-width: 1024px) 150vh, 100vw"
 					placeholder="blur"
           priority

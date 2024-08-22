@@ -52,7 +52,7 @@ const Travel = forwardRef<HTMLDivElement>((props, ref) => {
 
 				<div className="relative hidden lg:block lg:w-1/2">
           <div className="w-full lg:h-full frame">
-						<Image src={Photo} alt="Alexa and Gray" width={0} height={0} className="w-full object-cover h-full w-full" placeholder="blur" />
+						<Image src={Photo} alt="Hannah and David" width={0} height={0} className="w-full object-cover h-full w-full" placeholder="blur" />
 						<svg className="absolute top-[45%] left-[35%] w-[14%]" id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88.49 106.73">
 								<g id="Layer_1-2">
 									<path className="heart-path" d="m41.18,42.94h0c-8.81-5.57-19.85-11.14-29.96-5.18-9.59,5.64-8.57,17.33-3.06,25.5,6.37,9.46,16.89,16.74,26.4,22.77,10.29,6.53,21.43,11.62,33.02,15.38" style={{fill:"none", stroke:"#fff", strokeLinecap:"round", strokeMiterlimit:6, strokeWidth:"4px"}}/>
