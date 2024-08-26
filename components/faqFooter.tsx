@@ -17,10 +17,6 @@ const faqs = [
     text: "The weather in late May is usually beautiful! Day time temperatures are typically in the low 80s, and water temperatures are in the low 70s. Perfect beach weather!",
   },
   {
-    title: "Are there any places I shouldn't go while I'm here?",
-    text: "Yes! Do not go to the Oceanic!",
-  },
-  {
     title: "How should I get around Wilmington?",
     text: "Both Wilmington and Wrightsville Beach are pretty small, so it's ideal for walking or even biking! There are also a lot of Ubers and Lyfts in the area. If you like to drive, you definitely can, but it's also easy to get by without a car. ",
   },
