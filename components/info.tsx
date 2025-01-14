@@ -2,7 +2,7 @@ import { forwardRef } from "react";
 import { FadeInOut } from "./visual/fadeInOut";
 
 // const Info = forwardRef<HTMLDivElement>((props, ref) => {
-//   const string = "RSVP here in January!";
+//   const string = "RSVP here in February!";
 
 //   return (
 //     <>

@@ -6,7 +6,7 @@ import Accordion from './visual/accordion';
 const faqs = [
   {
     title: "When will formal invitations go out?",
-    text: "Formal Invitations will be mailed in January, and the RSVP section of the website will be available then as well!",
+    text: "Formal Invitations will be mailed in February, and the RSVP section of the website will be available then as well!",
   },
   {
     title: "Will there be other events to attend on the wedding weekend?",

@@ -7,7 +7,7 @@ import RsvpImage2 from 'Pictures/Daviddancingnoglassessmall.jpg';
 import useMediaQuery from './hooks/useMediaQuery';
 import Script from 'next/script';
 
-  const string = "RSVP here in January!";
+  const string = "RSVP here in February!";
 
 const Rsvp = forwardRef<HTMLDivElement>((props, ref) => {
   const [isInitialState, setIsInitialState] = useState(true);
