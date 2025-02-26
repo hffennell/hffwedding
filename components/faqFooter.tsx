@@ -4,21 +4,30 @@ import { FadeInOut } from './visual/fadeInOut';
 import Accordion from './visual/accordion';
 
 const faqs = [
-  {
-    title: "When will formal invitations go out?",
-    text: "Formal Invitations will be mailed in February, and the RSVP section of the website will be available then as well!",
-  },
+
   {
     title: "Will there be other events to attend on the wedding weekend?",
     text: "Yes! We will be having a welcome dinner Friday night at the Surf Club on Wrightsville Beach",
   },
   {
-    title: "What is the weather like in Wilmington?",
-    text: "The weather in late May is usually beautiful! Day time temperatures are typically in the low 80s, and water temperatures are in the low 70s. Perfect beach weather!",
+    title: "How should I get to the venues?",
+    text: "Both venues are centrally located in either Downtown Wilmington or Wrightsville Beach. We recommend walking, biking, or using ride share.",
   },
   {
+    title: "How should I RSVP?",
+    text: "On our website! In the RSVP section, click the big red button. You will be able to RSVP for your entire party, and include additional guest information (like allergies!). You will be able to RSVP for both the wedding and the welcome party here. Please RSVP by April 20th, thanks!",
+  },
+  {
+    title: "Are children invited?",
+    text: "With the exception of our neices and nephews who will be in our ceremony, our wedding will be a child-free event. Older children who are invited will be listed on the invitation and the RSVP. If you have any questions, or need recommendations for local sitters, please reach out!",
+  },
+    {
     title: "How should I get around Wilmington?",
     text: "Both Wilmington and Wrightsville Beach are pretty small, so it's ideal for walking or even biking! There are also a lot of Ubers and Lyfts in the area. If you like to drive, you definitely can, but it's also easy to get by without a car. ",
+  },
+  {
+    title: "What is the weather like in Wilmington?",
+    text: "The weather in late May is usually beautiful! Day time temperatures are typically in the low 80s, and water temperatures are in the low 70s. Perfect beach weather!",
   },
  
 ];
