@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     title: "Are children invited?",
-    text: "With the exception of our neices and nephews who will be in our ceremony, our wedding will be a child-free event. Older children who are invited will be listed on the invitation and the RSVP. If you have any questions, or need recommendations for local sitters, please reach out!",
+    text: "With the exception of our nieces and nephews who will be in our ceremony, our wedding will be a child-free event. Older children who are invited will be listed on the invitation and the RSVP. If you have any questions, or need recommendations for local sitters, please reach out!",
   },
     {
     title: "How should I get around Wilmington?",

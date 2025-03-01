@@ -48,7 +48,7 @@ const Info = forwardRef<HTMLDivElement>((props, ref) => {
            <p className="my-3 leading-loose">
              <span className="font-medium underline underline-offset-2">time:</span> ceremony will start at 5:30 with reception to follow!<br />
              <span className="font-medium underline underline-offset-2">venue:</span> Brooklyn Arts Center (516 N 4th St, Wilmington NC, 28401)<br />
-             <span className="font-medium underline underline-offset-2">dress code:</span> cocktail<br />
+             <span className="font-medium underline underline-offset-2">dress code:</span> festive cocktail<br />
            </p>
          </FadeInOut>
          <FadeInOut>
