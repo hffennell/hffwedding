@@ -71,7 +71,7 @@ const Rsvp = forwardRef<HTMLDivElement>((props, ref) => {
               >
                 rsvp here</button> */}
 
-                <button className="flower mt-20 z-10"onClick={(e) => openRSVP(e)}>
+                <button className="flower mt-20 z-50"onClick={(e) => openRSVP(e)}>
                         {[...string].map((s, i) => {
                           return (
                             <span style={{transform: `rotate(${9 * i}deg)`}} className="circle-span" key={i}>{s}</span>
@@ -89,7 +89,7 @@ const Rsvp = forwardRef<HTMLDivElement>((props, ref) => {
           </div>
         </div>
       </section>
-      <div className={`fixed top-0 flex items-center justify-center w-full h-screen ${isOpen ? 'block' : 'hidden'}`}>
+      <div className={`fixed top-0 flex items-center justify-center w-full h-screen z-50 ${isOpen ? 'block' : 'hidden'}`}>
         <div className="bg-gray-400 opacity-40 w-full h-full fixed" onClick={(e) => closeRSVP(e)}></div>
         <div id="rsvp-widget" className="z-20"></div>
       </div>
